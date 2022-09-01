@@ -1,3 +1,5 @@
 # guided projects
- most from dataquest
 
+Compilation of data science projects I found online 
+
+most from dataquest
