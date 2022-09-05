@@ -13,7 +13,7 @@ One-sample t-tests are used for comparing a sample mean to an expected populatio
 
 Two Sample T-Tests (for an association between a quantitative variable and a binary categorical variable)
 
-ANOVA and Tukey Tests (for an association between a quantitative variable and a non-binary categorical variable)
+ANOVA and Tukey Tests (for an association between a quantitative variable and a non-binary categorical variable). After you have run an ANOVA and found significant results, then you can run Tukey’s HSD to find out which specific groups’s means (compared with each other) are different. The test compares all possible pairs of means.
 
 Chi-Square Tests (for an association between two categorical variables)
 
