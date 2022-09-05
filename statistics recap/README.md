@@ -19,6 +19,7 @@ One-way ANOVA
 - Equal variance across groups: Flinger-Killen test of homogeneity of variance (violated, #2 hold → unequal-variance version of F-test)
 - Each population is normally distributed: Shapiro-Wilk test each group (violated → alt=Kruskal-Wallis Rank Sum Test)
 - one categorical variable (>2 levels) and one continuous (interval) variable
+- posthoc 
 
 
 Two-factor ANOVA
