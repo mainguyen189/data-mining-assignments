@@ -57,7 +57,7 @@ population_mean = np.mean(song_tempos)
 population_std = np.std(song_tempos)
 
 # calculate the standard error from sample of 30
-standard_error = population_std/(30**.5)
+standard_error = population_std/sqrt(30)
 
 # calculate the probability of observing an average of 140 or lower from a sample of 30 
 print(stats.norm.cdf(140, population_mean, standard_error))
