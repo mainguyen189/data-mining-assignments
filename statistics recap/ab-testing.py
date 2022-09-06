@@ -24,7 +24,7 @@ chi2, pval, dof, expected = chi2_contingency(Xtab)
 print(pval)
 
 # Determine if the p-value is significant
-is_significant = True
+is_significant = (pval < 0.05)
 
 # Calculate and print the number of visits
 num_visits = len(abdata)
