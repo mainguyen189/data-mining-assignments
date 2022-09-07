@@ -8,4 +8,4 @@ hyperparameter tuning
 
 
 
-ROC curve gives us the relationship between our true positive rate and our false positive rate. A true positive would be correctly identifying a patient with Pneumonia, while a false positive would be incorrectly identifying a healthy person as having pneumonia. Like with accuracy, we want our AUC to be as close to 1.0 as possible.
+ROC curve gives us the relationship between our true positive rate and our false positive rate. Like with accuracy, we want our AUC to be as close to 1.0 as possible.
