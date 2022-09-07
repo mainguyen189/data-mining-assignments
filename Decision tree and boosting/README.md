@@ -5,6 +5,7 @@ Boosting is a sequential learning technique where each of the base models builds
 Applying here to decision tree as base estimator because:
 - easy to interpret decision tree
 - training data requires very little manipulation (no need standardization, removal of collinearity, etc.)
+
 Decision tree weaknesses:
 - suffer from high variance and are therefore prone to overfitting
 - makeseries of decisions which cause them to memorize the training data, so they do not generalize well to unseen data. 
