@@ -1,8 +1,6 @@
 
 
-# Compilation of data science projects from:
-- codecademy and dataquest courses - access given by LSE
+# Compilation of data science assignments from:
+- codecademy and dataquest courses (thanks LSE for access)
 - open learning sources
-
-A bit unorganized right now..
 
