@@ -15,6 +15,6 @@ Random forest: ensemble machine learning model.
 
 Evaluation: confusion matrix or classification report:
 - Accuracy = (TP + TN)/(TP + FP + TN + FN)
-= Precision = TP/(TP + FP)
+- Precision = TP/(TP + FP)
 - Recall = TP/(TP + FN)
 - F1 score: weighted average of precision and recall
