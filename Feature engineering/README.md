@@ -9,12 +9,23 @@ Advantages
 Disadvantages
 - They are computationally expensive because the model needs to be re-fitted for each feature set being tested.
 
+
 Embedded methods also involve building and evaluating models for different feature subsets, but their feature selection process happens at the same time as their model fitting step.
 
 Advantages
 - Like wrapper methods, they can optimize the feature set for a particular model and account for multivariate relationships.
 - They are also generally less computationally expensive because feature selection happens during model training.
 
+
+Filter methods are the simplest type of feature selection method. They work by filtering features prior to model building based on some criteria.
+
+Advantages
+- They are computationally inexpensive, since they do not involve testing the subsetted features using a model.
+- They can work for any type of machine learning model.
+
+Disadvantages
+- It is more difficult to take multivariate relationships into account because we are not evaluating model performance. For example, a variable might not have much predictive power on its own, but can be informative when combined with other variables.
+- They are not tailored toward specific types of models.
 
 # Hyperparameter tuning methods
 - The grid search algorithm for hyperparameter tuning works by training a model on predetermined lists of hyperparameter values. Try every hyperparameter value on the list, and then use the one that makes the model perform best.
