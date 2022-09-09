@@ -1,4 +1,7 @@
 
+still in progress...
+
+
 hyperparameter tuning
   + learning rate
   + batch size
